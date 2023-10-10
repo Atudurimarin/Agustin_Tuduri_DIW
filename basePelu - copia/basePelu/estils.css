@@ -1,0 +1,84 @@
+body {
+  background-color: grey;
+}
+
+div#imatges {
+  background-color: blueviolet;
+  padding: 5px;
+  margin:5px;
+  height: 500px;
+
+  position: relative;
+
+  /*CSS AL DAVALL*/
+
+  height: 580px;
+  top:0px;
+  
+}
+
+p#titol {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 5px;
+
+  position: fixed;
+
+  /* CSS AL DAVALL */
+
+  position: relative;
+  bottom: -10px;
+  text-align: center;
+
+
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+
+  position: relative;
+
+  /* CSS AL DAVALL */
+
+  display: none;
+
+}
+
+img#model {
+  position: absolute;
+
+  /* CSS AL DAVALL */
+  position:relative;
+  top:40px;
+  left:40px;
+ 
+ 
+}
+
+img#scissors {
+  position: absolute;
+
+  /* CSS AL DAVALL */
+  position: absolute;
+  right:20px;
+  bottom: 20px;
+
+}
+
+.description {
+  font-size: 2em;
+  color: yellowgreen;
+
+  position: relative;
+
+/* CSS AL DAVALL */
+
+top: -50px;
+left:5px;
+color:rgb(164, 163, 163);
+
+
+}
